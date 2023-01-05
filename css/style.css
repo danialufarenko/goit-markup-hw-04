@@ -572,6 +572,13 @@ header .container {
   margin-bottom: 30px;
   border-bottom: 110px;
 }
+.item:hover {
+  width: 370px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+  0px 4px 4px rgba(0, 0, 0, 0.06),
+  1px 4px 6px rgba(0, 0, 0, 0.16);
+
+}
 .item-text {
   /* border: 1px solid #eeeeee; */
   width: 368px;
@@ -588,12 +595,12 @@ header .container {
   border-left-style: solid;
   border-left-color: #eeeeee;
 }
-.item:nth-child(1) {
+/* .item:nth-child(1) {
   width: 370px;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
     0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+} */
 .title {
   font-weight: 700;
   font-size: 18px;
