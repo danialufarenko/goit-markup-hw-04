@@ -566,8 +566,7 @@ header .container {
 }
 .item {
   width: calc((100% - 60px) / 3);
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 20px;
   margin-bottom: 30px;
   border-bottom: 110px;
 }
